@@ -19,10 +19,6 @@ html, body {
 	clear: both;
 }
 
-h1, em {
-	color: lime;
-}
-
 /* create a responsive container */
 @media only screen and (min-width: 1200px) {
 	.container { width: 1170px; }
@@ -66,5 +62,18 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
+h1 {
+
+}
+
+header {
+	background-color: rgb(51, 51, 51);
+	color: rgb(0,255,0);
+	font-family: sans-serif;
+}
+
+.instructions-wrapper {
+	border: black;
+}
 
 
