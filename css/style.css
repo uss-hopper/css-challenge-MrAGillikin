@@ -73,7 +73,19 @@ header {
 }
 
 .instructions-wrapper {
-	border: black;
+	border: .25em solid black;
+
+}
+
+.instructions-content {
+	margin: 2em;
+}
+
+
+.about-me {
+	background-color: rgb(0,0,255);
+	color: white;
+	font-family: sans-serif;
 }
 
 
