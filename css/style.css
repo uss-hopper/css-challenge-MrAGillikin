@@ -19,6 +19,10 @@ html, body {
 	clear: both;
 }
 
+h1, em {
+	color: lime;
+}
+
 /* create a responsive container */
 @media only screen and (min-width: 1200px) {
 	.container { width: 1170px; }
